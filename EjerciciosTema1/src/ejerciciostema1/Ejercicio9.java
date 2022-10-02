@@ -10,7 +10,7 @@ public class Ejercicio9 {
 		
 		int num1;//Variable introducida por el usuario.
 		int num2;//Variable introducida por el usuario.
-		boolean resultado;//Nos dirá si ambos números son iguales.
+		String resultado;//Nos dirá si ambos números son iguales.
 	
 		/*Creamos un escáner para poder leer los datos que introduzca el usuario por
 		la consola. */
@@ -27,7 +27,7 @@ public class Ejercicio9 {
 		
 		/*Comparamos si los números introducidos por el usuario son iguales.*/
 		
-		resultado=num1==num2;
+		resultado=num1==num2?"Sí":"No";
 	
 		//Mostramos el resultado por la consola.
 		
