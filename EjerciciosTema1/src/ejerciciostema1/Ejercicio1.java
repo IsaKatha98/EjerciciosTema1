@@ -6,10 +6,6 @@ public class Ejercicio1 {
 
 	public static void main(String[] args) {
 		
-		/*Realizar un programa que pida como entrada un número con decimales y 
-		 lo muestre redondeado al entero más próximo. (SIN UTILIZAR Math.round()).
-		 */
-		
 		//Declaramos las variables
 		double num; //Será el número introducido por el usuario
 		
@@ -26,7 +22,6 @@ public class Ejercicio1 {
 		//Para redondear la sumaremos 0,5 siempre 
 		
 		num+= 0.5;
-		
 		
 		/*Mostramos el resultado en la consola. Ojo, haremos un casteo (int) en la variable
 		para que solo muestre la parte entera*/

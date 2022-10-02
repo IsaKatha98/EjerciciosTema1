@@ -9,9 +9,9 @@ public class Ejercicio2 {
 		//Declaramos las variables
 		
 		int num;//Será la variable que introduzca el usuario
-		int resto;// Será la variable resto del módulo de 7 
-		int num2; //Será
-		int resultado;//Será la variable que devuelva el resultado
+		int resto;// Será la variable resultante del módulo de 7 
+		int suma; //Será la variable resultante de restar 7 - resto
+	
 		
 		/*Creamos un escáner para poder leer los datos que introduzca el usuario por
 		la consola */
@@ -20,17 +20,25 @@ public class Ejercicio2 {
 		
 		//Le pediremos al usuario que introduzca los datos y los guardaremos en la variable
 		
-		System.out.print("Introduzca un númeroy pulse Intro: ");
+		System.out.print("Introduzca un número y pulse Intro: ");
 		num= sc.nextInt();
 		
-		//Primero, averiguamos el resto de la división entre 7. El número que querremos sumar 
+		/*Primero, averiguamos el resto de la división entre 7 (variable resto) del número introducido por
+		 * el usuario. A continuación, esta variable se la restamos a 7, y nos dará la variable suma.*/
 		
 		resto=num%7;
 		suma=7-resto;
-		num2=suma+num;
 		
-		System.out.print(suma);
-		//Después, 
+		
+		/*Mostramos el resultado por la consola. Ojo, mostramos la variable suma porque nos interesa saber el 
+		número que deberíamos sumarle al número introducido por el usuario (num) para que sea múltiplo de 7.*/
+		
+		System.out.print("Para que el número introducido sea múltiplo de 7, deberá sumarle: "+suma);
+		
+		//Por último, cerramos el escáner
+		
+		sc.close();
+		
 
 	}
 
