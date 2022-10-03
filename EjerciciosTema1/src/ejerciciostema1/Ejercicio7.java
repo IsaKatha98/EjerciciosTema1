@@ -3,10 +3,14 @@ package ejerciciostema1;
 import java.util.Scanner;
 
 public class Ejercicio7 {
+	
+	/*Solicita al usuario tres distancias:la primera, medida en milímetros.La segunda, 
+	 * medida en centímetros.La última, medida en metros.Diseña un programa que muestre 
+	 * la suma de las tres longitudes introducidas (medida en centímetros).*/
 
 	public static void main(String[] args) {
 		
-		//Declaramos las variables
+		//Declaramos las variables.
 		
 		float a;//Será la variable que introduzca el usuario, en mm.
 		float b;//Será la variable que introduzca el usuario, en cm.
@@ -14,7 +18,7 @@ public class Ejercicio7 {
 		float resultado;//La variable resultado, en cm.
 		
 		/*Creamos un escáner para poder leer los datos que introduzca el usuario por
-		la consola */
+		la consola.*/
 								
 		Scanner sc= new Scanner (System.in); 
 								
@@ -41,7 +45,7 @@ public class Ejercicio7 {
 		
 		System.out.print("La suma de las tres medidas introducidas es: "+resultado+" cm.");
 								
-		//Por último, cerramos el escáner
+		//Por último, cerramos el escáner.
 								
 		sc.close();
 

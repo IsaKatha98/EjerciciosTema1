@@ -3,17 +3,20 @@ package ejerciciostema1;
 import java.util.Scanner;
 
 public class Ejercicio9 {
-
+	
+	/*Pide dos números al usuario. Deberá mostrarse true si ambos números son 
+	 * iguales y false en caso contrario.*/
+	
 	public static void main(String[] args) {
 		
-		//Declaramos las variables
+		//Declaramos las variables.
 		
 		int num1;//Variable introducida por el usuario.
 		int num2;//Variable introducida por el usuario.
 		String resultado;//Nos dirá si ambos números son iguales.
 	
 		/*Creamos un escáner para poder leer los datos que introduzca el usuario por
-		la consola. */
+		la consola.*/
 								
 		Scanner sc= new Scanner (System.in); 
 								
@@ -33,7 +36,7 @@ public class Ejercicio9 {
 		
 		System.out.print("¿Ambos números son iguales? "+resultado);
 								
-		//Por último, cerramos el escáner
+		//Por último, cerramos el escáner.
 								
 		sc.close();
 	}

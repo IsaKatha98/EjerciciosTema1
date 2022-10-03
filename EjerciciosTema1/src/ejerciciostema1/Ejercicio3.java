@@ -3,19 +3,22 @@ package ejerciciostema1;
 import java.util.Scanner;
 
 public class Ejercicio3 {
+	
+	/*Modifica el ejercicio anterior para que, indicando dos números, por ejemplo, 
+	 * num1 y num2, diga qué cantidad hay que sumarle a num1 para que sea múltiplo de num2.*/
 
 	public static void main(String[] args) {
 		
-		//Declaramos las variables
+		//Declaramos las variables.
 		
-		int num1;//Será la variable que introduzca el usuario
-		int num2; //Otra variable introducida por el usuario 
-		int resto;// Será la variable resultante del módulo de num2 
-		int suma; //Será la variable resultante de restar num2-resto
+		int num1;//Será la variable que introduzca el usuario.
+		int num2; //Otra variable introducida por el usuario.
+		int resto;// Será la variable resultante del módulo de num2.
+		int suma; //Será la variable resultante de restar num2-resto.
 			
 				
 		/*Creamos un escáner para poder leer los datos que introduzca el usuario por
-		la consola */
+		la consola.*/
 				
 		Scanner sc= new Scanner (System.in); 
 				
@@ -34,13 +37,12 @@ public class Ejercicio3 {
 		resto=num1%num2;
 		suma=num2-resto;
 				
-				
-		/*Mostramos el resultado por la consola. Ojo, mostramos la variable suma porque nos interesa saber el 
-		número que deberíamos sumarle a num1 para que sea múltiplo de num2.*/
+		/*Mostramos el resultado por la consola. Ojo, mostramos la variable suma porque nos 
+		 * interesa saber el número que deberíamos sumarle a num1 para que sea múltiplo de num2.*/
 				
 		System.out.print("Para que num1 sea múltiplo de num2, deberá sumarle: "+suma);
 				
-		//Por último, cerramos el escáner
+		//Por último, cerramos el escáner.
 				
 		sc.close();
 

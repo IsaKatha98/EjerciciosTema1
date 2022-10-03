@@ -3,18 +3,22 @@ package ejerciciostema1;
 import java.util.Scanner;
 
 public class Ejercicio6 {
+	
+	/*Diseña una aplicación que solicite al usuario que introduzca una cantidad de s
+	 * egundos. La aplicación debe mostrar cuántas horas, minutos y segundos hay en el 
+	 * número de segundos introducidos por el usuario.*/
 
 	public static void main(String[] args) {
 		
-		//Declaramos las variables
+		//Declaramos las variables.
 		
 		int num;//Será la variable que introduzca el usuario, en segundos.
-		int seg;//La variable segundos
-		int min;//La variable minutos
-		int horas;//La variable horas
+		int seg;//La variable segundos.
+		int min;//La variable minutos.
+		int horas;//La variable horas.
 		
 		/*Creamos un escáner para poder leer los datos que introduzca el usuario por
-		la consola */
+		la consola.*/
 								
 		Scanner sc= new Scanner (System.in); 
 								
@@ -28,8 +32,8 @@ public class Ejercicio6 {
 		 * entre 60 para hallar los minutos; y un módulo de 60 (%60) cuyo resultado aportará
 		 * los segundos.*/
 		
-		seg=num%60;//Lo mostraremos en el resultado de segundos
-		min=num/60;//Pasará a la siguiente operación
+		seg=num%60;//Lo mostraremos en el resultado de segundos.
+		min=num/60;//Pasará a la siguiente operación.
 		
 		//Volvemos a hacer lo mismo pero con la variable min para hallar las horas y minutos restantes.
 		
@@ -43,7 +47,6 @@ public class Ejercicio6 {
 		//Por último, cerramos el escáner
 								
 		sc.close();
-
 
 	}
 
